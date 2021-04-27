@@ -44,7 +44,6 @@ public class HiglightSelection : MonoBehaviour
         }
         else
         {
-
             var grabObject = other.gameObject.GetComponent<Grabbable>();
             grabObject.touchCount--;
 
